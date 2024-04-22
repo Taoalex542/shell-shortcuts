@@ -1,0 +1,5 @@
+#!/bin/bash
+cp -r template/include "$1"
+cp -r template/lib "$1"
+cp -r template/Makefile "$1"
+cp -r template/main.c "$1"

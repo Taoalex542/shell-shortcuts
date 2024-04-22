@@ -1,0 +1,4 @@
+#!/bin/bash
+find -name "*#" -delete -o -name "*~" -delete -o -name "vgcore*" -delete -o -name "coding-style-reports.log" -delete -o -name "*.o" -delete -o -name "*.gcno" -delete -o -name "*.gcda" -delete
+
+make fclean

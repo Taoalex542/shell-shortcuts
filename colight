@@ -1,0 +1,6 @@
+#!/bin/bash
+cp -r /home/data/temlight/lib "$1"
+cp -r /home/data/temlight/Makefile "$1"
+cp -r /home/data/temlight/main.c "$1"
+cp -r /home/data/temlight/.gitignore "$1"
+cp -r /home/data/temlight/.vscode "$1"
