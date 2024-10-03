@@ -1,2 +1,49 @@
 #!/bin/bash
-cat /home/data/bin/codstyle
+echo "C-O1 : temporary or unecessary files
+C-O2 : Sources in a C program must only have .c or .h extensions
+C-O3 : too many functions in file
+C-O4 : naming of files
+
+C-G1 : header missing or wrong
+C-G2 : separation of functions
+C-G3 : indentation of processor directives
+C-G4 : global variables
+C-G5 : include directives must only include C header (.h) files.
+C-G6 : line endings must be done with \n
+C-G7 : trailing spaces
+C-G8 : empty lines
+C-G9 : non-trivial constant values should be defined as global constant/macro.
+C-G10 : inline assembly must never be used
+
+C-F1 : a function should only do one thing
+C-F2 : names of functions must define the task it executes and must contain a verb
+C-F3 : 80 columns max
+C-F4 : 20 lines per function
+C-F5 : 4 parameters per function max
+C-F6 : functions with no parameters must have void in it instead
+C-F7 : structures need to be sent as pointers and not copy
+C-F8 : no comments inside functions
+C-F9 : nested functions not allowed
+
+C-L1 : only one statement per line
+C-L2 : indentation is wrong
+C-L3 : spacing is wrong
+C-L4 : curly brackets badly placed
+C-L5 : variables must be declared at the beginning and only one per declaration
+C-L6 : blank lines left
+
+C-V1 : naming must be done in english and in snake_case
+C-V2 : structures must be as small as possible and stay coherent
+C-V3 : pointers are wrongly placed
+
+C-C1 : conditional branching is more than two branches
+C-C2 : use of ternary operators is allowed as far as it is kept simple and readable
+C-C3 : goto is banned
+
+C-H1 : content
+C-H2 : double inclusion
+C-H3 : macros must match only one statement, and fit on a single line
+
+C-A1 : if data is modified, it should not be constant
+C-A2 : prefer the most accurate types possible according to the use of the data.
+C-A3 : file doesn't end line break"
