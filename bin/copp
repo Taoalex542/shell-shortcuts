@@ -1,0 +1,4 @@
+#!/bin/bash
+cp -r /home/data/templates/tempp/Makefile "$1"
+cp -r /home/data/templates/tempp/main.cpp "$1"
+cp -r /home/data/templates/tempp/.gitignore "$1"

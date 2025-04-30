@@ -1,0 +1,6 @@
+#!/bin/bash
+clean
+find -name "*.a" -delete
+coding-style . .
+clear
+cat coding-style-reports.log
