@@ -1,5 +1,5 @@
 #!/bin/bash
-cp -r templates/template/include "$1"
-cp -r templates/template/lib "$1"
-cp -r templates/template/Makefile "$1"
-cp -r templates/template/main.c "$1"
+cp -r /home/data/templates/template/include "$1"
+cp -r /home/data/templates/template/lib "$1"
+cp -r /home/data/templates/template/Makefile "$1"
+cp -r /home/data/templates/template/main.c "$1"

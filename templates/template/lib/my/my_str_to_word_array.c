@@ -5,9 +5,8 @@
 ** task04
 */
 #include "my.h"
-#include <stdio.h>
 
-int nbword(char const *str)
+static int nbword(char const *str)
 {
     int nbword = 0;
 
@@ -20,7 +19,7 @@ int nbword(char const *str)
     return nbword;
 }
 
-int wordlen(char const *str, int i)
+static int wordlen(char const *str, int i)
 {
     int retvalue = 0;
 
@@ -29,7 +28,7 @@ int wordlen(char const *str, int i)
     return retvalue;
 }
 
-int start_here(char **ans, char const *str)
+static int start_here(char **ans, char const *str)
 {
     int i = 0;
 

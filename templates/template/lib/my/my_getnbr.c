@@ -27,3 +27,24 @@ int my_getnbr(char const *str)
     temp = temp * neg;
     return temp;
 }
+
+int nb_len(long long nb)
+{
+    int count = 0;
+
+    if (nb < 0)
+        nb = nb * -1;
+    for ((void)nb; nb > 9; nb = nb / 10)
+        count++;
+    count++;
+    return count;
+}
+
+int get_size(int z)
+{
+    int i = 1;
+
+    for (; z != 0; z = z - 1)
+        i = i * 10;
+    return i;
+}

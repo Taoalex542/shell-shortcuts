@@ -1,6 +1,0 @@
-#!/bin/bash
-cp -r /home/data/templates/temlight/lib "$1"
-cp -r /home/data/templates/temlight/Makefile "$1"
-cp -r /home/data/templates/temlight/main.c "$1"
-cp -r /home/data/templates/temlight/.gitignore "$1"
-cp -r /home/data/templates/temlight/.vscode "$1"
